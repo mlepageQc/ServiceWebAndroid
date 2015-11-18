@@ -1,0 +1,98 @@
+[
+    {
+      "category_id": "1",
+      "name": "Action",
+      "name_fr": "Action",
+      "last_update": "2009-10-23 18:36:35"
+    },
+    {
+      "category_id": "2",
+      "name": "Animation",
+      "name_fr": "Animation",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "3",
+      "name": "Children",
+      "name_fr": "Enfants",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "4",
+      "name": "Classics",
+      "name_fr": "Classique",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "5",
+      "name": "Comedy",
+      "name_fr": "Comédie",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "6",
+      "name": "Documentary",
+      "name_fr": "Documentaire",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "7",
+      "name": "Drama",
+      "name_fr": "Drame",
+      "last_update": "2009-10-23 18:36:59"
+    },
+    {
+      "category_id": "8",
+      "name": "Family",
+      "name_fr": "Famille",
+      "last_update": "2009-10-23 18:37:09"
+    },
+    {
+      "category_id": "9",
+      "name": "Foreign",
+      "name_fr": "Étranger",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "10",
+      "name": "Games",
+      "name_fr": "Jeux",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "11",
+      "name": "Horror",
+      "name_fr": "Horreur",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "12",
+      "name": "Music",
+      "name_fr": "Musique",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "13",
+      "name": "New",
+      "name_fr": "Nouveauté",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "14",
+      "name": "Sci-Fi",
+      "name_fr": "Science-Fiction",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "15",
+      "name": "Sports",
+      "name_fr": "Sports",
+      "last_update": "2009-10-23 18:36:36"
+    },
+    {
+      "category_id": "16",
+      "name": "Travel",
+      "name_fr": "Voyages",
+      "last_update": "2009-10-23 18:36:36');"
+    }
+]

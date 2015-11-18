@@ -1,0 +1,21 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\Steve\Desktop\TP4 ANDROJIZZ\.metadata\.plugins\org.eclipse.core.resources\.projects\carpoolxpress\com.python.pydev.analysis\v2_indexcache
+main|1447862150505926000|C:\Users\Steve\Desktop\TP4 ANDROJIZZ\carpoolxpress\src\main.py
+model|1447861488854469000|C:\Users\Steve\Desktop\TP4 ANDROJIZZ\carpoolxpress\src\model.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=main
+2=Utilisateur
+-- END DICTIONARY
+-- START TREE 1
+1
+uti|1|Utilisateur!9@
+-- END TREE
+-- START TREE 2
+3
+adr|1|adresse!2&11@
+pas|1|password!2&11@
+use|1|username!2&11@
+-- END TREE

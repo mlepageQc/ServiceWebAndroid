@@ -1,0 +1,77 @@
+# -*- coding: utf-8 -*-
+
+from google.appengine.ext import ndb
+from google.storage.speckle.proto.jdbc_type import NULL
+
+
+class Actor(ndb.Model):
+    first_name = ndb.StringProperty(required=True)
+    last_name = ndb.StringProperty(required=True)
+    last_update = ndb.DateTimeProperty(auto_now=True)
+
+
+class Address(ndb.Model):
+    address = ndb.StringProperty(required=True)
+    address2 = ndb.StringProperty(required=False)
+    district = ndb.StringProperty(required=True)
+    city_id = ndb.IntegerProperty(required=True)
+    postal_code = ndb.StringProperty(required=False)
+    phone = ndb.StringProperty(required=False)
+    last_update = ndb.DateTimeProperty(auto_now=True)
+
+
+class Category(ndb.Model):
+    name = ndb.StringProperty(required=True)
+    name_fr = ndb.StringProperty(required=True)
+    last_update = ndb.DateTimeProperty(auto_now=True)
+
+
+class City(ndb.Model):
+    city = ndb.StringProperty(required=True, indexed=False)
+    country_id = ndb.IntegerProperty(required=True, indexed=False)
+    last_update = ndb.DateTimeProperty(auto_now=True, indexed=False)
+
+
+class Country(ndb.Model):
+    country = ndb.StringProperty(required=True)
+    last_update = ndb.DateTimeProperty(auto_now=True)
+
+
+class Customer(ndb.Model):
+    store_id = ndb.IntegerProperty(required=True)
+    first_name = ndb.StringProperty(required=True, indexed=False)
+    last_name = ndb.StringProperty(required=True, indexed=False)
+    email = ndb.StringProperty(required=True, indexed=False)
+    active = ndb.IntegerProperty(required=True, indexed=False, default='1')
+    create_date = ndb.DateTimeProperty(auto_now=True, indexed=False)
+    password = ndb.StringProperty(required=True, indexed=False)
+    last_update = ndb.DateTimeProperty(auto_now=True, indexed=False)
+
+
+class FilmActor(ndb.Model):
+    actor_id = ndb.IntegerProperty(required=True)
+    film_id = ndb.IntegerProperty(required=True)
+
+
+class Film(ndb.Model):
+    title = ndb.StringProperty(required=True, indexed=True)
+    description = ndb.StringProperty(required=False, indexed=False)
+    release_year = ndb.IntegerProperty(required=False, indexed=False)
+    language_id = ndb.IntegerProperty(required=True, indexed=False)
+    original_language_id = ndb.IntegerProperty(required=False, indexed=False)
+    list_actor = ndb.IntegerProperty(repeated=True, required=False)
+    rental_duration = ndb.IntegerProperty(required=True, indexed=False)
+    rental_rate = ndb.FloatProperty(required=True, indexed=False)
+    length = ndb.IntegerProperty(required=False)
+    replacement_cost = ndb.FloatProperty(required=True, indexed=False)
+    rating = ndb.StringProperty(choices=['G', 'PG', 'PG-13', 'R', 'NC-17'],
+                                default='G')
+    special_features = ndb.StringProperty(default=None, required=False)
+    last_update = ndb.DateTimeProperty(required=True, auto_now=True)
+    category_id = ndb.IntegerProperty(required=False, indexed=False)
+
+
+class Language(ndb.Model):
+    name = ndb.StringProperty(required=True)
+    name_fr = ndb.StringProperty(required=True)
+    last_update = ndb.DateTimeProperty(required=True, auto_now=True)

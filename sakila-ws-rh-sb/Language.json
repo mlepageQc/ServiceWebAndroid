@@ -1,0 +1,38 @@
+[
+    {
+      "language_id": "1",
+      "name": "English",
+      "name_fr": "Anglais",
+      "last_update": "2009-10-23 18:52:36"
+    },
+    {
+      "language_id": "2",
+      "name": "Italian",
+      "name_fr": "Italien",
+      "last_update": "2009-10-23 18:52:36"
+    },
+    {
+      "language_id": "3",
+      "name": "Japanese",
+      "name_fr": "Japonais",
+      "last_update": "2009-10-23 18:52:36"
+    },
+    {
+      "language_id": "4",
+      "name": "Mandarin",
+      "name_fr": "Mandarin",
+      "last_update": "2009-10-23 18:52:36"
+    },
+    {
+      "language_id": "5",
+      "name": "French",
+      "name_fr": "Français",
+      "last_update": "2009-10-23 18:52:36"
+    },
+    {
+      "language_id": "6",
+      "name": "German",
+      "name_fr": "Allemand",
+      "last_update": "2009-10-23 18:52:36');"
+    }
+]
